@@ -1,0 +1,42 @@
+body {
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 10rem;
+    padding-top: .5rem;
+    border: double brown;
+}
+
+#header {
+    color: brown;
+    padding-left: -1rem;
+}
+
+#userinput {
+    border: ridge;
+    border-color: brown;
+    margin-right: 45rem;
+    padding: 1rem;
+}
+
+#userinfo {
+    border-color: brown;
+    margin-left: 1rem;
+    margin-right: 60rem;
+    text-align: center;
+    align-items: center;
+}
+
+#indexfield {
+    border-color: brown;
+    margin-left: 1rem;
+    margin-right: 50rem;
+}
+
+#jobResults {
+    color: red;
+}
+
+.search {
+    margin-left: 3rem;
+    padding: 2rem;
+}

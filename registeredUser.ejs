@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/index.css" type="text/css">
+	<title>Find Jobs</title>
+</head>
+<body>
+	<fieldset id="userinfo">
+		<legend>Your Information</legend>
+		Name: <%-firstName%> <%-lastName%>
+		<br>
+		Email: <%-email%>
+		<br>
+		username: <%-username%>
+	</fieldset>
+	<br>
+	<form action="/search?username=<%-username%>" method="post">
+		<b>Find Jobs Here:</b> <input type="text" id="jobsearch" name="jobsearch" placeholder="Software Engineer" required>
+		<input type="submit" value="Search">
+	</form>
+	<br><br>
+	Here are your previously visited jobs:
+	<%-html%>
+</body>
+</html>
